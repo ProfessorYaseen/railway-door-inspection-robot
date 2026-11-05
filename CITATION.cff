@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Autonomous Railway Door Inspection Robot"
+authors:
+  - family-names: Yaseen
+    given-names: Muhammad
+    affiliation: "Institute of Railway Research, University of Huddersfield"
+repository-code: "https://github.com/ProfessorYaseen/railway-door-inspection-robot"
+license: AGPL-3.0-or-later
+version: 1.0.0
+date-released: 2026-11-05
+keywords:
+  - robotics
+  - computer vision
+  - railway inspection
+  - mobile manipulation
+  - YOLO
+  - ROS 2

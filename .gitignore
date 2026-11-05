@@ -1,0 +1,45 @@
+# ---- secrets ----
+.env
+*.env
+!.env.example
+
+# ---- model weights (distributed via GitHub Releases, not git) ----
+weights/*
+!weights/README.md
+*.pt
+*.onnx
+*.bin
+*_openvino_model/
+*.engine
+
+# ---- data (private dataset - never commit) ----
+data/
+datasets/
+dataset*/
+*.zip
+railway_capture/
+
+# ---- training / inference outputs ----
+runs/
+outputs/
+inspection_runs/
+*.mp4
+*.avi
+*.mov
+
+# ---- python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+build/
+dist/
+
+# ---- editors / OS ----
+.vscode/
+.idea/
+.DS_Store

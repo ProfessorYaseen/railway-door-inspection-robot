@@ -1,0 +1,11 @@
+# Offline inference + training (any laptop / Colab)
+ultralytics>=8.4
+opencv-python>=4.8
+numpy>=1.23
+pyyaml>=6.0
+requests>=2.28
+
+# On the robot (Intel NUC, Ubuntu 22.04 + ROS 2 Humble) also install:
+#   pip install pyrealsense2 flask
+#   sudo apt install ros-humble-ur-robot-driver ros-humble-rplidar-ros
+# rclpy and the ROS message packages come from the ROS 2 installation, not pip.
